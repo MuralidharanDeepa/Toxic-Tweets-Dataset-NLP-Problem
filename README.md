@@ -15,8 +15,7 @@ nltk: Used for natural language processing tasks like tokenization, lemmatizatio
 
 # Data:
 
-The dataset was downloaded from the following Kaggle Com-
-pitation https://www.kaggle.com/datasets/ashwiniyer176/toxic-tweets-dataset.
+The dataset was downloaded from the following Kaggle, https://www.kaggle.com/datasets/ashwiniyer176/toxic-tweets-dataset.
 
 The script assumes that the tweet data is available in a pandas DataFrame named df with two columns:
 
