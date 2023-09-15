@@ -42,7 +42,7 @@ The script assumes that the tweet data is available in a pandas DataFrame named 
 7. Metrics such as precision, recall, F1-score and ROC-AUC are calculated for each model and vectorization technique combination.
 8. Bar charts are generated to visualize the precision, recall and F1-score for each model and vectorization technique.
 9. Confusion matrices and ROC curves are plotted to evaluate the performance of each model.
-10. All visualizations and metrics are saved in a PDF and uploaded with their respective names.
+10. All visualizations and metrics are saved in a single PDF named `combined_report.pdf`.
   
 # Conclusion
 Based on the results, the script infers that Bag of Words (BoW) vectorization performs better in models like DecisionTrees and RandomForest, which are not sensitive to word context but rely more on individual word frequencies. On the other hand, TF-IDF vectorization is more suitable for models like Naive-Bayes, K-NN Classifier and SVM, where the importance of words in the context of the entire corpus plays a crucial role in classification.
